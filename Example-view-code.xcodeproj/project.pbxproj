@@ -12,6 +12,10 @@
 		51227536275D725F00FA7656 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51227535275D725F00FA7656 /* Assets.xcassets */; };
 		51227539275D725F00FA7656 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51227537275D725F00FA7656 /* LaunchScreen.storyboard */; };
 		51227541275D785E00FA7656 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51227540275D785E00FA7656 /* LoginView.swift */; };
+		EFD31ED827F12C7000B2F227 /* StatementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD31ED727F12C7000B2F227 /* StatementView.swift */; };
+		EFD31EDA27F1403600B2F227 /* CardBalance.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD31ED927F1403600B2F227 /* CardBalance.swift */; };
+		EFD31EDC27F1435700B2F227 /* StatementViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD31EDB27F1435700B2F227 /* StatementViewModel.swift */; };
+		EFD31EDE27F14D1500B2F227 /* CardViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD31EDD27F14D1500B2F227 /* CardViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		51227538275D725F00FA7656 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5122753A275D725F00FA7656 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		51227540275D785E00FA7656 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		EFD31ED727F12C7000B2F227 /* StatementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatementView.swift; sourceTree = "<group>"; };
+		EFD31ED927F1403600B2F227 /* CardBalance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardBalance.swift; sourceTree = "<group>"; };
+		EFD31EDB27F1435700B2F227 /* StatementViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatementViewModel.swift; sourceTree = "<group>"; };
+		EFD31EDD27F14D1500B2F227 /* CardViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,10 @@
 				51227537275D725F00FA7656 /* LaunchScreen.storyboard */,
 				5122753A275D725F00FA7656 /* Info.plist */,
 				51227540275D785E00FA7656 /* LoginView.swift */,
+				EFD31ED727F12C7000B2F227 /* StatementView.swift */,
+				EFD31ED927F1403600B2F227 /* CardBalance.swift */,
+				EFD31EDB27F1435700B2F227 /* StatementViewModel.swift */,
+				EFD31EDD27F14D1500B2F227 /* CardViewCell.swift */,
 			);
 			path = "Example-view-code";
 			sourceTree = "<group>";
@@ -134,9 +146,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFD31EDA27F1403600B2F227 /* CardBalance.swift in Sources */,
 				5122752D275D725D00FA7656 /* AppDelegate.swift in Sources */,
 				51227541275D785E00FA7656 /* LoginView.swift in Sources */,
+				EFD31ED827F12C7000B2F227 /* StatementView.swift in Sources */,
+				EFD31EDC27F1435700B2F227 /* StatementViewModel.swift in Sources */,
 				5122752F275D725D00FA7656 /* SceneDelegate.swift in Sources */,
+				EFD31EDE27F14D1500B2F227 /* CardViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

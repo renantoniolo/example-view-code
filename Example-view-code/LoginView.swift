@@ -57,7 +57,11 @@ final class LoginView: UIViewController {
     // MARK: - Action
     @objc
     func didTapEnter() {
-        print("Entrei")
+        guard let navigationController = self.navigationController else {
+            return
+        }
+        let statementView = StatementView()
+        navigationController.pushViewController(statementView, animated: true)
     }
     
     // MARK: - Lifecycle
